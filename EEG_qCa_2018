@@ -1,0 +1,159 @@
+EEG_qCa/:
+total 706
+-rw-r--r--  1 ingber Users    4364 Mar 27 19:31 0key_vars
+-rwx------  1 ingber Users    4227 Mar 29 09:15 0notes
+-rwx------  1 ingber Users    1917 Feb 27 11:21 ASA-LICENSE
+drwx------+ 1 ingber Users       0 Feb 10 10:32 DATA_PREP
+-rwx------  1 ingber Users    7787 Mar 13 15:42 Head.h
+drwx------+ 1 ingber Users       0 Feb 10 10:34 INDEX_RUNS
+-rwx------  1 ingber Users     330 Oct  7  2015 IndicesCurrent
+-rwx------  1 ingber Users    2029 Mar 17 08:34 Makefile
+drwx------+ 1 ingber Users       0 Mar 29 09:15 RCS
+-rwx------  1 ingber Users    1918 Feb  1  2016 SPLINE_LAPL-LICENSE
+-rwx------  1 ingber Users   25290 Sep 13  2015 Time
+-rwx------  1 ingber Users  261485 Mar 13 15:42 asa.c
+-rwx------  1 ingber Users   14605 Mar 12 10:56 asa.h
+-rwx------  1 ingber Users    2660 Mar 20 15:39 asa_opt
+-rwx------  1 ingber Users  184323 Mar 12 10:56 asa_usr.c
+-rwx------  1 ingber Users   12949 Mar 12 10:56 asa_usr.h
+-rwx------  1 ingber Users   17056 Mar 12 10:56 asa_usr_asa.h
+-rwx------  1 ingber Users    4726 Mar 12 10:56 asa_usr_cst.c
+-rwx------  1 ingber Users   14349 Mar 17 08:34 costcalc.c
+-rwxr-x---  1 ingber ingber    142 Feb 27 11:21 desktop.ini
+lrwxrwxrwx  1 ingber Users      25 Mar 17 08:45 ingber_scratch -> /cygdrive/d/XSEDE/EEG_qCa
+-rwx------  1 ingber Users    7843 Mar 17 08:34 main.c
+-rwx------  1 ingber Users    5256 Mar 27 07:24 parinit.c
+-rwx------  1 ingber Users   14028 Mar 13 15:44 prologue.ps
+drwx------+ 1 ingber Users       0 Mar 17 15:59 qMAXIMA
+-rwx------  1 ingber Users   12183 Mar 11 10:29 smni.c
+-rwx------  1 ingber Users    1483 Mar 11 10:29 statcalc.c
+-rwx------  1 ingber Users    2405 Mar 17 08:34 trajinit.c
+-rwx------  1 ingber Users     222 Mar 19 08:59 xpost.csh
+-rwx------  1 ingber Users    4211 Mar 19 08:54 xpost_STAT.csh
+-rwx------  1 ingber Users    1649 Oct  9  2015 xpost_summ.csh
+-rwx------  1 ingber Users     576 Mar 19 11:51 xsede_bundler_comet.pl
+-rwx------  1 ingber Users    1108 Mar 27 19:32 xsede_bundler_comet.sh
+-rwx------  1 ingber Users    1684 Mar 29 09:15 xxsede_comet.csh
+-rwx------  1 ingber Users     156 Mar 20 16:41 xxsede_comet_array.csh
+-rwx------  1 ingber Users     318 Mar 20 15:34 xxsede_comet_array0.csh
+-rwx------  1 ingber Users    1598 Mar 20 16:54 xxsede_comet_array1.csh
+-rwx------  1 ingber Users    1405 Mar 29 09:15 xxsede_stampede.csh
+
+EEG_qCa/DATA_PREP:
+total 13
+drwx------+ 1 ingber Users    0 Feb 10 10:32 01spline
+drwx------+ 1 ingber Users    0 Feb 10 10:32 02convert
+drwx------+ 1 ingber Users    0 Feb 10 10:33 03prep
+-rwx------  1 ingber ingber 142 Feb 10 10:32 desktop.ini
+
+EEG_qCa/DATA_PREP/01spline:
+total 125
+-rwx------  1 ingber Users    421 Sep  1  2015 CPCid
+-rwx------  1 ingber Users    421 Sep  1  2015 CPClist
+-rwx------  1 ingber Users    682 Sep  1  2015 CPCx
+-rwx------  1 ingber Users   1590 Sep  1  2015 Cap_coords_64.txt
+-rwx------  1 ingber Users  91506 Sep  1  2015 Lapl
+drwx------+ 1 ingber Users      0 Feb 10 10:33 RCS
+-rwx------  1 ingber ingber   142 Feb 10 10:32 desktop.ini
+-rwx------  1 ingber Users    723 Aug 10  2015 disteu.m
+-rwx------  1 ingber Users    291 Sep  3  2015 main_script.m
+-rwx------  1 ingber Users    299 Sep  3  2015 main_script_gordon.m
+-rwx------  1 ingber Users    312 Sep  3  2015 main_script_stampede.m
+-rwx------  1 ingber Users   1104 Aug 10  2015 matmake.m
+-rwx------  1 ingber Users   1359 Aug 10  2015 matnlap.m
+-rwx------  1 ingber Users    518 Aug 10  2015 matwm.m
+-rwx------  1 ingber Users    101 Aug 10  2015 normr.m
+-rwx------  1 ingber Users    478 Aug 10  2015 ofcp.m
+
+EEG_qCa/DATA_PREP/02convert:
+total 40
+-rwx------  1 ingber Users  4158 Aug 14  2015 0notes
+drwx------+ 1 ingber Users     0 Feb 10 10:33 RCS
+-rwx------  1 ingber Users   617 Sep  4  2015 coarsegrain_gordon.m
+-rwx------  1 ingber Users   628 Sep  4  2015 coarsegrain_stampede.m
+-rwx------  1 ingber ingber  142 Feb 10 10:32 desktop.ini
+-rwx------  1 ingber Users   316 Sep  3  2015 lapl_gordon.m
+-rwx------  1 ingber Users   327 Sep  4  2015 lapl_stampede.m
+-rwx------  1 ingber Users   209 Sep  6  2015 xcoarse.csh
+-rwx------  1 ingber Users  1127 Sep  4  2015 xlapl.csh
+-rwx------  1 ingber Users   570 Sep  6  2015 xsede_bundler.pl
+-rwx------  1 ingber Users  2012 Sep 25  2015 xxsede_gordon_convert.csh
+-rwx------  1 ingber Users  1254 Sep  3  2015 xxsede_stampede_convert.csh
+
+EEG_qCa/DATA_PREP/03prep:
+total 62
+-rwx------  1 ingber Users    957 Sep 25  2015 00xstart.csh
+-rwx------  1 ingber Users    421 Sep  1  2015 CPCid
+drwx------+ 1 ingber Users      0 Feb 10 10:33 RCS
+-rwx------  1 ingber Users    416 Sep  1  2015 X_CPClist
+-rwx------  1 ingber Users    322 Aug 29  2015 allplots.hdr
+-rwx------  1 ingber ingber   142 Feb 10 10:33 desktop.ini
+-rwx------  1 ingber Users    280 Sep  3  2015 hist_script_gordon.m
+-rwx------  1 ingber Users    285 Sep  3  2015 hist_script_stampede.m
+-rwx------  1 ingber Users  14028 May 24  2015 prologue.ps
+-rwx------  1 ingber Users    627 Oct  4  2015 xcutcoarse.csh
+-rwx------  1 ingber Users   1660 Sep  4  2015 xdata_hist_all.csh
+-rwx------  1 ingber Users    648 Sep  3  2015 xdata_hist_indiv.csh
+-rwx------  1 ingber Users    791 Oct  7  2015 xmaxmin.csh
+-rwx------  1 ingber Users   1997 Sep  4  2015 xplots_all.csh
+-rwx------  1 ingber Users   1800 Sep  4  2015 xplots_indiv.csh
+
+EEG_qCa/INDEX_RUNS:
+total 21
+drwx------+ 1 ingber Users     0 Feb 10 10:34 TEST
+drwx------+ 1 ingber Users     0 Feb 10 10:34 TRAIN
+-rwx------  1 ingber Users  8820 Sep 13  2015 alldatafiles
+-rwx------  1 ingber ingber  142 Feb 10 10:34 desktop.ini
+
+EEG_qCa/INDEX_RUNS/TEST:
+total 13
+-rwx------ 1 ingber ingber 142 Feb 10 10:34 desktop.ini
+-rwx------ 1 ingber Users   50 Sep 16  2015 s01
+-rwx------ 1 ingber Users   50 Sep 16  2015 s02
+-rwx------ 1 ingber Users   50 Sep 16  2015 s03
+-rwx------ 1 ingber Users   50 Sep 16  2015 s04
+-rwx------ 1 ingber Users   50 Sep 16  2015 s05
+-rwx------ 1 ingber Users   50 Sep 16  2015 s06
+-rwx------ 1 ingber Users   50 Sep 16  2015 s07
+-rwx------ 1 ingber Users   50 Sep 16  2015 s08
+-rwx------ 1 ingber Users   50 Sep 16  2015 s09
+-rwx------ 1 ingber Users   50 Sep 16  2015 s10
+-rwx------ 1 ingber Users   50 Sep 16  2015 s11
+-rwx------ 1 ingber Users   50 Sep 16  2015 s12
+
+EEG_qCa/INDEX_RUNS/TRAIN:
+total 13
+-rwx------ 1 ingber ingber 142 Feb 10 10:34 desktop.ini
+-rwx------ 1 ingber Users   50 Sep 16  2015 s01
+-rwx------ 1 ingber Users   50 Sep 16  2015 s02
+-rwx------ 1 ingber Users   50 Sep 16  2015 s03
+-rwx------ 1 ingber Users   50 Sep 16  2015 s04
+-rwx------ 1 ingber Users   50 Sep 16  2015 s05
+-rwx------ 1 ingber Users   50 Sep 16  2015 s06
+-rwx------ 1 ingber Users   50 Sep 16  2015 s07
+-rwx------ 1 ingber Users   50 Sep 16  2015 s08
+-rwx------ 1 ingber Users   50 Sep 16  2015 s09
+-rwx------ 1 ingber Users   50 Sep 16  2015 s10
+-rwx------ 1 ingber Users   50 Sep 16  2015 s11
+-rwx------ 1 ingber Users   50 Sep 16  2015 s12
+
+EEG_qCa/qMAXIMA:
+total 120
+-rwx------  1 ingber Users   1873 Mar  7 07:52 0notes_mac
+-rwx------  1 ingber Users   2020 Mar  7 07:52 MAXIMA-LICENSE
+drwx------+ 1 ingber Users      0 Mar 17 15:59 RCS
+-rwx------  1 ingber Users  17027 Mar  7 07:52 ca_eeg.docx
+-rwx------  1 ingber Users    783 Mar  7 07:52 ca_eeg.mac
+-rwx------  1 ingber Users   5528 Mar  7 07:52 ca_eeg.out
+-rwx------  1 ingber ingber   142 Mar  7 07:52 desktop.ini
+-rwx------  1 ingber Users    392 Mar  7 07:52 free.mac
+-rwx------  1 ingber Users   2197 Mar  7 07:52 free.out
+-rwx------  1 ingber Users    344 Mar  7 07:52 gauss.mac
+-rwx------  1 ingber Users   1276 Mar  7 07:52 phi.mac
+-rwx------  1 ingber Users   8306 Mar  7 07:52 phi.out
+-rwx------  1 ingber Users  14028 Mar  7 07:52 prologue.ps
+-rwx------  1 ingber Users   2210 Mar  7 07:52 psi_project.mac
+-rwx------  1 ingber Users   1784 Mar  7 07:52 psi_xt.mac
+-rwx------  1 ingber Users  22259 Mar  7 07:52 psi_xt.out
+-rwx------  1 ingber Users     44 Mar  7 07:52 xmax.csh
+
